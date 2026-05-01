@@ -1,0 +1,63 @@
+{
+  "name": "adobe-commerce-dev-docs-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for searching Adobe Commerce / Magento developer documentation (developer.adobe.com/commerce). Provides AI assistants with tools to search, browse, and read official Commerce developer guides — PHP, GraphQL/REST APIs, frontend, PWA, App Builder extensibility, MFTF testing, marketplace, admin SDK, cloud tools, and more.",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "adobe-commerce-dev-docs-mcp": "dist/index.js"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build",
+    "start": "node dist/index.js",
+    "start:http": "node dist/index.js --http",
+    "dev": "tsx src/index.ts",
+    "dev:http": "tsx src/index.ts --http",
+    "test": "tsx --test tests/*.test.ts"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "adobe-commerce",
+    "magento",
+    "developer-docs",
+    "graphql",
+    "rest-api",
+    "pwa-studio",
+    "app-builder",
+    "mftf",
+    "documentation",
+    "ai",
+    "cursor",
+    "claude",
+    "sitemap"
+  ],
+  "license": "MIT",
+  "author": "Jigar Karangiya",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jigarkkarangiya/adobe-commerce-dev-docs-mcp"
+  },
+  "homepage": "https://github.com/jigarkkarangiya/adobe-commerce-dev-docs-mcp#readme",
+  "bugs": {
+    "url": "https://github.com/jigarkkarangiya/adobe-commerce-dev-docs-mcp/issues"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.1",
+    "fast-xml-parser": "^5.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.0"
+  }
+}
