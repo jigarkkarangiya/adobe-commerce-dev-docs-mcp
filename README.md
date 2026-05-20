@@ -490,6 +490,25 @@ adobe-commerce-dev-docs-mcp/
 
 - Node.js 18 or later
 
+---
+
+## Find This MCP
+
+| Registry | Link |
+|---|---|
+| npm | [npmjs.com/package/adobe-commerce-dev-docs-mcp](https://www.npmjs.com/package/adobe-commerce-dev-docs-mcp) |
+| GitHub | [github.com/jigarkkarangiya/adobe-commerce-dev-docs-mcp](https://github.com/jigarkkarangiya/adobe-commerce-dev-docs-mcp) |
+| mcp.so | [mcp.so](https://mcp.so) — search `adobe-commerce-dev-docs` |
+| Smithery | [smithery.ai](https://smithery.ai) — search `adobe-commerce-dev-docs` |
+| Glama | [glama.ai/mcp/servers](https://glama.ai/mcp/servers) — search `adobe commerce developer` |
+
+## Related MCPs
+
+- [adobe-commerce-docs-mcp](https://github.com/jigarkkarangiya/adobe-commerce-docs-mcp) — Adobe Commerce merchant/user/admin docs (experienceleague.adobe.com)
+- [aem-live-docs-mcp](https://github.com/jigarkkarangiya/aem-live-docs-mcp) — AEM / Edge Delivery Services docs (aem.live)
+
+---
+
 ## License
 
 [MIT](LICENSE)
