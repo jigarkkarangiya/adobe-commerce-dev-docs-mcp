@@ -1,6 +1,6 @@
 {
   "name": "adobe-commerce-dev-docs-mcp",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "MCP server for Adobe Commerce / Magento 2 developer documentation. Gives AI assistants (Claude, Cursor, Cline, Windsurf) direct access to developer.adobe.com/commerce — PHP modules, GraphQL, REST API, PWA Studio, App Builder, extensibility, MFTF testing, and more.",
   "type": "module",
   "main": "dist/index.js",
