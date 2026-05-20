@@ -1,7 +1,7 @@
 # Adobe Commerce Developer Docs MCP Server
 
 [![npm version](https://img.shields.io/npm/v/adobe-commerce-dev-docs-mcp)](https://www.npmjs.com/package/adobe-commerce-dev-docs-mcp)
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](LICENSE)
 [![Node.js](https://img.shields.io/badge/node-%3E%3D18-brightgreen)](https://nodejs.org/)
 
 An [MCP (Model Context Protocol)](https://modelcontextprotocol.io/) server that gives AI assistants direct access to the official **Adobe Commerce / Magento _developer_ documentation** at [developer.adobe.com/commerce](https://developer.adobe.com/commerce/). It indexes the developer.adobe.com sitemap (~2,374 dev pages across 11 sections) and serves clean markdown by fetching directly from the underlying `AdobeDocs/commerce-*` GitHub repos — so you get exactly what the docs source contains, with no HTML noise.
@@ -504,11 +504,17 @@ adobe-commerce-dev-docs-mcp/
 
 ## Related MCPs
 
-- [adobe-commerce-docs-mcp](https://github.com/jigarkkarangiya/adobe-commerce-docs-mcp) — Adobe Commerce merchant/user/admin docs (experienceleague.adobe.com)
-- [aem-live-docs-mcp](https://github.com/jigarkkarangiya/aem-live-docs-mcp) — AEM / Edge Delivery Services docs (aem.live)
+- [`adobe-commerce-docs-mcp`](https://www.npmjs.com/package/adobe-commerce-docs-mcp) — Adobe Commerce merchant & admin docs (experienceleague.adobe.com)
+- [`aem-live-docs-mcp`](https://www.npmjs.com/package/aem-live-docs-mcp) — AEM / Edge Delivery Services docs (aem.live)
+- [`adobe-app-builder-docs-mcp`](https://www.npmjs.com/package/adobe-app-builder-docs-mcp) — Adobe App Builder — serverless, I/O Runtime, Commerce extensibility
+- [`adobe-api-mesh-docs-mcp`](https://www.npmjs.com/package/adobe-api-mesh-docs-mcp) — Adobe API Mesh — GraphQL gateway & source handlers
+- [`adobe-commerce-kb-mcp`](https://www.npmjs.com/package/adobe-commerce-kb-mcp) — Adobe Commerce Support Knowledge Base — troubleshooting & patches
+- [`adobe-io-events-docs-mcp`](https://www.npmjs.com/package/adobe-io-events-docs-mcp) — Adobe I/O Events — webhooks, journaling & event providers
 
 ---
 
 ## License
 
-[MIT](LICENSE)
+[CC BY-NC 4.0](LICENSE)
+
+CC BY-NC 4.0 © 2026 [Jigar Karangiya](https://jigarkarangiya.com/) · [LinkedIn](https://www.linkedin.com/in/jigar-ahir/)
